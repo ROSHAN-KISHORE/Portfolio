@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--CSS ke kaam ke liye import kar lena for eg menu bar -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--JS ka hai-->
+    </head>
+    <body>
+        <!--scroll up button-->
+        <div class="scroll-up-btn">
+            <span >&#8679;</span>
+        </div>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+
+                <ul class="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#works">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fa fa-bars" style="font-size:36px"></i>
+                </div>
+            </div>
+        </nav>
+        <!--home section starts -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is </div>
+                    <div class="text-2">Roshan Kishore</div>
+                    <div class="text-3">And I'm a student at IIT PATNA </div>
+                    <div class="text-4">My intrest includes<span class="typing"></span></div>
+                    <a href="#">Hire Me</a>
+                </div>
+
+            </div>
+        </section>
+        <!--about section starts-->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title">About Me</h2>
+                <div class="about-content">
+                    <div class="coloum left">
+                        <img src="about_me.jpg" alt="image was here">
+                    </div>  
+                    <div class="coloum right">
+                        <div class="text">I'm Roshan and I'm a <span class="typing2"></span></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla numquam repellat vel aliquid? Sequi porro rerum, tenetur quis minus aperiam? Error, provident molestiae. Ab ea magnam reiciendis nihil, at sed.</p>
+                        <a href="#">Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--works section starts-->
+        <section class="works" id="works">
+            <div class="max-width">
+                <h2 class="title">My Works</h2>
+                <div class="works-content">
+                    <div class="card">
+                        <div class="box">
+                            <span style='font-size:30px;'>&#128396;</span>
+                            <div class="text">Web Development</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquam alias suscipit dolorum facere dolorem accusantium quod incidunt, optio impedit, nisi ab dicta obcaecati ipsa rem quis! Magnam, libero tempora!</p>
+                        </div>
+                    </div>   
+                    <div class="card">
+                        <div class="box">
+                            <span style='font-size:30px;'>&#128421;</span>
+                            <div class="text">Programming</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquam alias suscipit dolorum facere dolorem accusantium quod incidunt, optio impedit, nisi ab dicta obcaecati ipsa rem quis! Magnam, libero tempora!</p>
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <div class="box">
+                            <span style='font-size:30px;'>&#128395;</span>
+                            <div class="text">Academic Highlights</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque numquam alias suscipit dolorum facere dolorem accusantium quod incidunt, optio impedit, nisi ab dicta obcaecati ipsa rem quis! Magnam, libero tempora!</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!--contact section starts-->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="coloum left">
+                        <div class="text"> Get in Touch</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste eos libero similique? Nam totam, vero maxime eligendi corporis quis similique quisquam cupiditate asperiores, quas molestiae numquam doloremque repellendus minus!</p>
+                        <div class="icons">
+                            <div class="row">
+                                <span style='font-size:50px;'>&#128100;</span>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Roshan Kishore</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span style='font-size:50px;'>&#127960;</span>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">B2/547F, Bhel Township, kailasapuram, Trichy-620014</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span style='font-size:50px;'>&#9993;</span>
+                                <div class="info">  
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">roshankishore17@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coloum right">
+                        <div class="text">Message Me</div>
+                        <form action="#">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                                <div class="field">
+                                    <input type="text" placeholder="Subject" required>
+                                </div>
+                                <div class="button">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section starts -->
+        <footer>
+            <span>Created By <a href="#">Roshan Kishore</a> | <span style='font-size:17px;'>&#169;</span> 2020 All rights reserved</span>
+        </footer>
+
+
+
+        <script src="script.js"></script>  <!--NOTE-->
+
+
+
+
+    </body>
+
+</html>
